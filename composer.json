@@ -31,6 +31,6 @@
     },
     "scripts": {
         "test": "./vendor/bin/phpunit",
-        "coverage": "./vendor/bin/phpunit ./tests --whitelist ./src --coverage-text"
+        "coverage": "./vendor/bin/phpunit --coverage-text"
     }
 }
