@@ -9,7 +9,7 @@
 PHP library for creating a SOAP envelope for X-Road request.
 
 Intended for applications which proxy several SOAP requests and must create SOAP requests dynamically. 
-If you need to integrate only one X-Road service then this library might not be suitable.
+If you need to integrate only one X-Road service then this library might not be the best choice.
 
 # Requirements
 
