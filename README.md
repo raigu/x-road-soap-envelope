@@ -91,6 +91,33 @@ The order of input parameters in `SoapEnvelope` constructor is not important.
 
 There are more parameter types. See [Future test](tests/Feature/CreationOfXRoadRequestMessageTest.php), it demonstrates all options. 
 
+# Development
+
+```bash
+$ git@github.com:raigu/x-road-soap-envelope.git
+$ cd x-road-soap-envelope
+$ composer install
+```
+
+Now you can run tests.
+
+# Testing
+
+```bash
+$ composer test
+```
+
+Human readable tests
+```bash
+$ composer test -- --testdox
+```
+
+Code coverage report
+
+```bash
+$ composer coverage
+```
+
 # Motivation
 
 This library has grown out from [raigu/x-road-soap-envelope-builder](https://github.com/raigu/x-road-soap-envelope-builder)
