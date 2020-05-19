@@ -5,9 +5,12 @@ namespace Raigu\XRoad\SoapEnvelope\Element;
 use DOMDocument;
 
 /**
- * I am an XML element aggregated from many elements.
+ * I am an abstract XML element.
+ *
+ * I can aggregate zero to many elements.
+ * I can inject all elements into given XML.
  */
-abstract class AggregatedElement implements XmlInjectable
+abstract class AbstractElement implements XmlInjectable
 {
     /**
      * @var XmlInjectable[]

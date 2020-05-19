@@ -2,14 +2,14 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
-use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+use Raigu\XRoad\SoapEnvelope\Element\AbstractElement;
 
 /**
  * I am an user id of the person who initiates the X-Road request.
  *
  * I can inject myself into SOAP envelope header
  */
-final class UserId extends AggregatedElement
+final class UserId extends AbstractElement
 {
     /**
      * @param string $userId the user who is making the request

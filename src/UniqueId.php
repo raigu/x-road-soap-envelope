@@ -2,7 +2,7 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
-use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+use Raigu\XRoad\SoapEnvelope\Element\AbstractElement;
 
 /**
  * I am an unique X-Road request id.
@@ -10,7 +10,7 @@ use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
  * I assign a random id to myself upon creation.
  * I can inject myself into SOAP envelope header
  */
-final class UniqueId extends AggregatedElement
+final class UniqueId extends AbstractElement
 {
     public function __construct()
     {

@@ -2,7 +2,7 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
-use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+use Raigu\XRoad\SoapEnvelope\Element\AbstractElement;
 use Raigu\XRoad\SoapEnvelope\Element\DOMElementInjection;
 use Raigu\XRoad\SoapEnvelope\Element\FragmentInjection;
 use Traversable;
@@ -12,7 +12,7 @@ use Traversable;
  *
  * I can inject myself into SOAP envelope header
  */
-final class Client extends AggregatedElement
+final class Client extends AbstractElement
 {
 
     /**

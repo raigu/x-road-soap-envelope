@@ -2,14 +2,14 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
-use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+use Raigu\XRoad\SoapEnvelope\Element\AbstractElement;
 
 /**
  * I am an issue reference number used in X-Road message
  *
  * I can inject myself into SOAP envelope header
  */
-final class Issue extends AggregatedElement
+final class Issue extends AbstractElement
 {
     /**
      * @param string $issue Identifies received application, issue or document

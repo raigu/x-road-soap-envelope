@@ -2,14 +2,14 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
-use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+use Raigu\XRoad\SoapEnvelope\Element\AbstractElement;
 
 /**
  * I am a X-Road Message id.
  *
  * I can inject myself into SOAP envelope header
  */
-final class Id extends AggregatedElement
+final class Id extends AbstractElement
 {
     /**
      * @param string $id Unique identifier of X-Road message.

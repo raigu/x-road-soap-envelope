@@ -2,7 +2,7 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
-use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+use Raigu\XRoad\SoapEnvelope\Element\AbstractElement;
 use Raigu\XRoad\SoapEnvelope\Element\DOMElementInjection;
 use Raigu\XRoad\SoapEnvelope\Element\FragmentInjection;
 use Traversable;
@@ -15,7 +15,7 @@ use Traversable;
  * I fallow the specification "Third Party Representation Extension"
  * @see https://x-tee.ee/docs/live/xroad/pr-third_party_representation_extension.html
  */
-final class RepresentedParty extends AggregatedElement
+final class RepresentedParty extends AbstractElement
 {
     /**
      * RepresentedParty constructor.

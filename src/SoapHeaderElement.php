@@ -2,7 +2,7 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
-use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+use Raigu\XRoad\SoapEnvelope\Element\AbstractElement;
 use Raigu\XRoad\SoapEnvelope\Element\DOMElementInjection;
 
 /**
@@ -10,7 +10,7 @@ use Raigu\XRoad\SoapEnvelope\Element\DOMElementInjection;
  *
  * I know how to inject myself into SOAP header with proper XML namespace.
  */
-final class SoapHeaderElement extends AggregatedElement
+final class SoapHeaderElement extends AbstractElement
 {
     public function __construct(string $tagName, string $tagValue)
     {
