@@ -5,9 +5,10 @@ namespace Raigu\XRoad\SoapEnvelope;
 use IteratorAggregate;
 
 /**
- * I am a reference of a represented party in string format acting as an iterator.
+ * I am a string representation of a represented party.
  *
- * I expose name and value used in SOAP envelope.
+ * I act like iterator over associative array.
+ * Returned array keys are same as tag names in SOAP envelope header.
  *
  * Represented party is the party on behalf of whom the client makes requests.
  * @see https://x-tee.ee/docs/live/xroad/pr-third_party_representation_extension.html

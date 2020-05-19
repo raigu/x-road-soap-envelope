@@ -122,8 +122,8 @@ $ composer coverage
 
 This library has grown out from [raigu/x-road-soap-envelope-builder](https://github.com/raigu/x-road-soap-envelope-builder)
 in pursuit of refining code metrics. The lesson I learned is that be suspicious about Maintainability Index.
-"_size as a measure of maintainability has been underrated, and that the “sophisticated” maintenance metrics are overrated_"
-[source](https://avandeursen.com/2014/08/29/think-twice-before-using-the-maintainability-index/).
+I tend to agree with the statement "_size as a measure of maintainability has been underrated, and that the “sophisticated”
+maintenance metrics are overrated_" referred in this [article](https://avandeursen.com/2014/08/29/think-twice-before-using-the-maintainability-index/).
  
 
 # References

@@ -9,7 +9,7 @@ use Raigu\XRoad\SoapEnvelope\Element\XmlInjectable;
 /**
  * I am a request of an X-Road service.
  *
- * I can inject myself into SOAP Envelope Body.
+ * I can inject myself into SOAP envelope body.
  */
 final class ServiceRequest implements XmlInjectable
 {

@@ -3,7 +3,7 @@
 namespace Raigu\XRoad\SoapEnvelope;
 
 /**
- * I am an issue reference number of X-Road message
+ * I am an issue reference number used in X-Road message
  *
  * I can inject myself into SOAP envelope header
  */

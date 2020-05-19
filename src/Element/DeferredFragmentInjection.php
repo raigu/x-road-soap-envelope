@@ -6,8 +6,10 @@ use Closure;
 use DOMDocument;
 
 /**
- * I append XML fragment as child to referred node.
+ * I am an XML fragment.
+ *
  * I defer fragment creation to the last moment before appending.
+ * I append XML fragment as child to referred node.
  */
 final class DeferredFragmentInjection implements XmlInjectable
 {

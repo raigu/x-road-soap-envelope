@@ -3,7 +3,7 @@
 namespace Raigu\XRoad\SoapEnvelope;
 
 /**
- * I am a X-Request id.
+ * I am a X-Road Message id.
  *
  * I can inject myself into SOAP envelope header
  */

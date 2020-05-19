@@ -7,7 +7,7 @@ use Raigu\XRoad\SoapEnvelope\Element\FragmentInjection;
 use Traversable;
 
 /**
- * I am a client who makes X-Road request
+ * I am an X-Road client description.
  *
  * I can inject myself into SOAP envelope header
  */

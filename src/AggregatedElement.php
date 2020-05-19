@@ -6,7 +6,7 @@ use DOMDocument;
 use Raigu\XRoad\SoapEnvelope\Element\XmlInjectable;
 
 /**
- * I am an XML element aggregated from many elements
+ * I am an XML element aggregated from many elements.
  */
 abstract class AggregatedElement implements XmlInjectable
 {

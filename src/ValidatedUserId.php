@@ -7,6 +7,7 @@ use PHPUnit\Runner\Exception;
 /**
  * I am validated user id.
  *
+ * I can represent myself as string.
  * I will throw exception if I am invalid.
  */
 final class ValidatedUserId

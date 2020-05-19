@@ -6,7 +6,9 @@ use DOMDocument;
 use DOMElement;
 
 /**
- * I append DOMElement as child to referred node.
+ * I am an XML element as DOMElement instance.
+ *
+ * I can append myself as a child to referred node.
  */
 final class DOMElementInjection implements XmlInjectable
 {

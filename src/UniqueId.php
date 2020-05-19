@@ -6,7 +6,7 @@ use DOMDocument;
 use Raigu\XRoad\SoapEnvelope\Element\XmlInjectable;
 
 /**
- * I am a X-Request id.
+ * I am an unique X-Road request id.
  *
  * I assign a random id to myself upon creation.
  * I can inject myself into SOAP envelope header

@@ -6,7 +6,7 @@ use Raigu\XRoad\SoapEnvelope\Element\DOMElementInjection;
 use Raigu\XRoad\SoapEnvelope\Element\XmlInjectable;
 
 /**
- * I am a SOAP Envelope.
+ * I am a SOAP envelope.
  *
  * I can construct myself from given elements and return myself as string.
  */

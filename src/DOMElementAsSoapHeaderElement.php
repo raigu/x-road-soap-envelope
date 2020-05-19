@@ -8,9 +8,9 @@ use Raigu\XRoad\SoapEnvelope\Element\DOMElementInjection;
 use Raigu\XRoad\SoapEnvelope\Element\XmlInjectable;
 
 /**
- * I DOMElement of SOAP Header.
+ * I am a DOMElement of SOAP header.
  *
- * I know how to inject myself into SOAP Header
+ * I can inject myself into SOAP envelope header
  */
 abstract class DOMElementAsSoapHeaderElement implements XmlInjectable
 {

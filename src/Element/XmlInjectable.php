@@ -5,7 +5,9 @@ namespace Raigu\XRoad\SoapEnvelope\Element;
 use DOMDocument;
 
 /**
- * I know how to inject myself into proper place in XML
+ * I am an XML element.
+ *
+ * I can inject myself into given XML.
  */
 interface XmlInjectable
 {
