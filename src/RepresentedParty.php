@@ -2,6 +2,7 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
+use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
 use Raigu\XRoad\SoapEnvelope\Element\DOMElementInjection;
 use Raigu\XRoad\SoapEnvelope\Element\FragmentInjection;
 use Traversable;

@@ -1,9 +1,8 @@
 <?php
 
-namespace Raigu\XRoad\SoapEnvelope;
+namespace Raigu\XRoad\SoapEnvelope\Element;
 
 use DOMDocument;
-use Raigu\XRoad\SoapEnvelope\Element\XmlInjectable;
 
 /**
  * I am an XML element aggregated from many elements.
