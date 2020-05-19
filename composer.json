@@ -28,5 +28,9 @@
     },
     "suggest":{
         "ext-csprng": "Needed if you delegate request id generation to library (\\Raigu\\XRoad\\SoapEnvelope\\UniqueId)"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit",
+        "coverage": "./vendor/bin/phpunit ./tests --whitelist ./src --coverage-text"
     }
 }
