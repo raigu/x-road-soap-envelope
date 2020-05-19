@@ -1,5 +1,3 @@
-**-------------- UNDER CONSTRUCTION! --------------**
-
 [![Latest Stable Version](https://poser.pugx.org/raigu/x-road-soap-envelope/v/stable)](https://packagist.org/packages/raigu/x-road-soap-envelope)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Build Status](https://travis-ci.com/raigu/x-road-soap-envelope.svg?branch=master)](https://travis-ci.com/raigu/x-road-soap-envelope)
