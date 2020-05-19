@@ -23,6 +23,11 @@ final class ServiceRequest implements XmlInjectable
         $this->element->inject($dom);
     }
 
+    /**
+     * @param string $serviceRequest service request as XML.
+     *                               Demo video how you can construct me:
+     *                               https://www.youtube.com/watch?v=ziQIwlTtPLA
+     */
     public function __construct(string $serviceRequest)
     {
         $this->element = new FragmentInjection(
