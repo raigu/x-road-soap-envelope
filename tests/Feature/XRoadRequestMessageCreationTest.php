@@ -15,7 +15,7 @@ use Raigu\XRoad\SoapEnvelope\ServiceRequest;
 use Raigu\XRoad\SoapEnvelope\SoapEnvelope;
 use Raigu\XRoad\SoapEnvelope\UserId;
 
-final class CreationOfXRoadRequestMessageTest extends TestCase
+final class XRoadRequestMessageCreationTest extends TestCase
 {
     /**
      * @test

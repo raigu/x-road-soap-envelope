@@ -89,7 +89,7 @@ The above will output:
 
 The order of input parameters in `SoapEnvelope` constructor is not important.
 
-There are more parameter types. See [Future test](tests/Feature/CreationOfXRoadRequestMessageTest.php), it demonstrates all options. 
+There are more parameter types. See [future test](tests/Feature/XRoadRequestMessageCreationTest.php), it demonstrates all options. 
 
 # Development
 
