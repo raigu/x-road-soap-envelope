@@ -9,7 +9,7 @@ class ClientValidationTest extends TestCase
     /**
      * @test
      */
-    public function fromStr_throws_exception_when_invalid_format()
+    public function throws_exception_when_invalid_format()
     {
         $this->expectExceptionMessage('Invalid format');
 

@@ -10,7 +10,7 @@ class UserIdValidationTest extends TestCase
     /**
      * @test
      */
-    public function fromStr_throws_exception_if_country_code_prefix_missing()
+    public function throws_exception_if_country_code_prefix_missing()
     {
         $this->expectExceptionMessage('country code');
         $sut = new ValidatedUserIdAlias('00000000000');
