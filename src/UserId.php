@@ -2,14 +2,15 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
+use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+
 /**
  * I am an user id of the person who initiates the X-Road request.
  *
  * I can inject myself into SOAP envelope header
  */
-final class UserId extends DOMElementAsSoapHeaderElement
+final class UserId extends AggregatedElement
 {
-
     /**
      * @param string $userId the user who is making the request
      *                   Format: {iso2LetterCountryCode}{personCode}
@@ -18,10 +19,9 @@ final class UserId extends DOMElementAsSoapHeaderElement
     public function __construct(string $userId)
     {
         parent::__construct(
-            new \DOMElement(
+            new SoapHeaderElement(
                 'userId',
-                (new ValidatedUserId($userId))->asStr(),
-                'http://x-road.eu/xsd/xroad.xsd'
+                (new ValidatedUserId($userId))->asStr()
             )
         );
     }

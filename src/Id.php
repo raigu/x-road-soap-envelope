@@ -2,12 +2,14 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
+use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+
 /**
  * I am a X-Road Message id.
  *
  * I can inject myself into SOAP envelope header
  */
-final class Id extends DOMElementAsSoapHeaderElement
+final class Id extends AggregatedElement
 {
     /**
      * @param string $id Unique identifier of X-Road message.
@@ -18,11 +20,7 @@ final class Id extends DOMElementAsSoapHeaderElement
     public function __construct(string $id)
     {
         parent::__construct(
-            new \DOMElement(
-                'id',
-                $id,
-                'http://x-road.eu/xsd/xroad.xsd'
-            )
+            new SoapHeaderElement('id', $id)
         );
     }
 }

@@ -2,8 +2,7 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
-use DOMDocument;
-use Raigu\XRoad\SoapEnvelope\Element\XmlInjectable;
+use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
 
 /**
  * I am an unique X-Road request id.
@@ -11,23 +10,14 @@ use Raigu\XRoad\SoapEnvelope\Element\XmlInjectable;
  * I assign a random id to myself upon creation.
  * I can inject myself into SOAP envelope header
  */
-final class UniqueId implements XmlInjectable
+final class UniqueId extends AggregatedElement
 {
-    /**
-     * @var XmlInjectable
-     */
-    private $element;
-
-    public function inject(DOMDocument $dom): void
-    {
-        $this->element->inject($dom);
-    }
-
-
     public function __construct()
     {
-        $this->element = new Id(
-            bin2hex(random_bytes(16))
+        parent::__construct(
+            new Id(
+                bin2hex(random_bytes(16))
+            )
         );
     }
 }

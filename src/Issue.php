@@ -2,12 +2,14 @@
 
 namespace Raigu\XRoad\SoapEnvelope;
 
+use Raigu\XRoad\SoapEnvelope\Element\AggregatedElement;
+
 /**
  * I am an issue reference number used in X-Road message
  *
  * I can inject myself into SOAP envelope header
  */
-final class Issue extends DOMElementAsSoapHeaderElement
+final class Issue extends AggregatedElement
 {
     /**
      * @param string $issue Identifies received application, issue or document
@@ -19,11 +21,7 @@ final class Issue extends DOMElementAsSoapHeaderElement
     public function __construct(string $issue)
     {
         parent::__construct(
-            new \DOMElement(
-                'issue',
-                $issue,
-                'http://x-road.eu/xsd/xroad.xsd'
-            )
+            new SoapHeaderElement('issue', $issue)
         );
     }
 }
