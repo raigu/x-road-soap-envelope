@@ -5,6 +5,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f7e770c2aaec2059698f/test_coverage)](https://codeclimate.com/github/raigu/x-road-soap-envelope/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f7e770c2aaec2059698f/maintainability)](https://codeclimate.com/github/raigu/x-road-soap-envelope/maintainability)
 [![Scrutinizer](https://scrutinizer-ci.com/g/raigu/x-road-soap-envelope/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/raigu/x-road-soap-envelope/)
+[![CodeScene Code Health](https://codescene.io/projects/8219/status-badges/code-health)](https://codescene.io/projects/8219)
 
 # x-road-soap-envelope
 
