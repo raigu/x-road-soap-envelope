@@ -122,8 +122,12 @@ $ composer coverage
 # Motivation
 
 This library has grown out from [raigu/x-road-soap-envelope-builder](https://github.com/raigu/x-road-soap-envelope-builder)
-in pursuit of improving code metrics. In the process studied several code metrics service providers (some more badges [![CodeScene Code Health](https://codescene.io/projects/8219/status-badges/code-health)](https://codescene.io/projects/8219)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/f7e770c2aaec2059698f/test_coverage)](https://codeclimate.com/github/raigu/x-road-soap-envelope/test_coverage))
+in pursuit of improving code metrics. In the process studied several code metrics service providers (
+some more badges 
+[![CodeScene Code Health](https://codescene.io/projects/8219/status-badges/code-health)](https://codescene.io/projects/8219)
+[![CodeScene System Mastery](https://codescene.io/projects/8219/status-badges/system-mastery)](https://codescene.io/projects/8219)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f7e770c2aaec2059698f/test_coverage)](https://codeclimate.com/github/raigu/x-road-soap-envelope/test_coverage) 
+)
 
 One lesson I learned worth of sharing is that be suspicious about Maintainability Index. 
 I tend to agree with the statement "_size as a measure of maintainability has been underrated, and that the “sophisticated”
