@@ -2,10 +2,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Build Status](https://travis-ci.com/raigu/x-road-soap-envelope.svg?branch=master)](https://travis-ci.com/raigu/x-road-soap-envelope)
 [![codecov](https://codecov.io/gh/raigu/x-road-soap-envelope/branch/master/graph/badge.svg)](https://codecov.io/gh/raigu/x-road-soap-envelope)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/f7e770c2aaec2059698f/test_coverage)](https://codeclimate.com/github/raigu/x-road-soap-envelope/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f7e770c2aaec2059698f/maintainability)](https://codeclimate.com/github/raigu/x-road-soap-envelope/maintainability)
 [![Scrutinizer](https://scrutinizer-ci.com/g/raigu/x-road-soap-envelope/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/raigu/x-road-soap-envelope/)
-[![CodeScene Code Health](https://codescene.io/projects/8219/status-badges/code-health)](https://codescene.io/projects/8219)
 
 # x-road-soap-envelope
 
@@ -124,10 +122,13 @@ $ composer coverage
 # Motivation
 
 This library has grown out from [raigu/x-road-soap-envelope-builder](https://github.com/raigu/x-road-soap-envelope-builder)
-in pursuit of refining code metrics. The lesson I learned is that be suspicious about Maintainability Index.
+in pursuit of improving code metrics. In the process studied several code metrics service providers (some more badges [![CodeScene Code Health](https://codescene.io/projects/8219/status-badges/code-health)](https://codescene.io/projects/8219)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f7e770c2aaec2059698f/test_coverage)](https://codeclimate.com/github/raigu/x-road-soap-envelope/test_coverage))
+
+One lesson I learned worth of sharing is that be suspicious about Maintainability Index. 
 I tend to agree with the statement "_size as a measure of maintainability has been underrated, and that the “sophisticated”
-maintenance metrics are overrated_" referred in this [article](https://avandeursen.com/2014/08/29/think-twice-before-using-the-maintainability-index/).
- 
+maintenance metrics are overrated_" referred in this [article](https://avandeursen.com/2014/08/29/think-twice-before-using-the-maintainability-index/). 
+
 
 # References
 
